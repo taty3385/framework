@@ -1,0 +1,66 @@
+body {
+    min-height: 100vh;
+}
+.hidden{
+    display: none;
+}
+
+
+
+@media(max-width:1067px) {
+   nav .containerIcon {
+        display: none;
+    }
+    .containerCard {
+        width: 100%;
+         flex-direction: column;
+        align-items: center;
+       flex-wrap: nowrap;
+        
+    }
+
+    .containerCard .container {
+       width: 40%;
+    }
+
+   nav .hidden{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+  }
+}
+@media(max-width:707px) {
+    footer{
+        flex-direction: column; 
+    }
+ footer .containerFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerButton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+       
+    }
+    .containerButton .button{
+        width: 90%;
+        margin-bottom: 1rem;
+      
+        flex-grow: 1;
+      
+        
+       
+    }
+body .principal{
+    padding: 0;
+    
+}
+.containerCard .container {
+    width: 60%;
+ }
+
+   
+}
